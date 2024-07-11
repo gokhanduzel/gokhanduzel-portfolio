@@ -1,0 +1,38 @@
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
+/* Custom styles for slick dots */
+.slick-dots li {
+  margin: 0 5px; /* Adjust spacing around the dots */
+}
+
+.slick-dots li button {
+  font-size: 0; /* Removes the number inside the dots if any */
+  line-height: 0; /* Adjust line height to zero for the button */
+}
+
+.slick-dots li button:before {
+  content: "•"; /* Unicode character for the custom dot */
+  font-size: 16px; /* Increase the size of the dot */
+  line-height: 20px; /* Adjust line height to match new size */
+  position: relative;
+  top: 25px; /* Adjust position to align center if needed */
+  opacity: 1; /* Fully visible dots */
+}
+
+.slick-dots li.slick-active button:before {
+  color: #12efeb; /* Color for active dot */
+}
+
+/* Hide project description on mobile */
+.project-description {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  /* Adjust the breakpoint as needed */
+  .project-description {
+    display: block; /* Show descriptions on larger screens */
+  }
+}
