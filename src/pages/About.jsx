@@ -83,7 +83,7 @@ const About = () => {
                   </span>
                 </span>
                 <p className="text-xl leading-relaxed">
-                  a dedicated software engineer based in Ottawa, ON, with a
+                  A dedicated software engineer based in Ottawa, ON, with a
                   proven track record of crafting cutting-edge software
                   solutions that elevate user experiences and optimize
                   operational efficiency. My educational foundation in Software
