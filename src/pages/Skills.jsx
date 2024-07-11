@@ -154,7 +154,7 @@ const Skills = () => {
   return (
     <div
       ref={skillsRef}
-      className="section skills-container flex flex-col items-center min-h-screen"
+      className="section skills-container flex flex-col items-center pb-32"
     >
       <div className="mb-32 mt-12">
         <h1 className="relative skills text-3xl font-extrabold text-center animate-fadeIn">

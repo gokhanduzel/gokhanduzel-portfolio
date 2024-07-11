@@ -43,11 +43,12 @@ button {
 
 .section {
   padding: 20px;
-  min-height: 100vh; /* Ensure each section covers at least the viewport height */
+   /* Ensure each section covers at least the viewport height */
   background: radial-gradient(
     ellipse at bottom,
     #1b2735 0%,
     #090a0f 100%
   ); /* Gradient starts again for each section */
+ 
 }
 
