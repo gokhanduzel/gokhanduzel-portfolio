@@ -76,13 +76,13 @@ const About = () => {
               }}
             >
               <div className="text-left space-y-6 text-white">
-                <span className="text-xl">
+                <span className="relative text-xl">
                   Hello, I'm{" "}
                   <span className="text-2xl underline underline-offset-2 decoration-cyan-500 drop-shadow-whiteGlow">
                     Gökhan Düzel,
                   </span>
                 </span>
-                <p className="text-xl leading-relaxed">
+                <p className="relative text-xl leading-relaxed">
                   A dedicated software engineer based in Ottawa, ON, with a
                   proven track record of crafting cutting-edge software
                   solutions that elevate user experiences and optimize

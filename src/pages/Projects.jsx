@@ -111,9 +111,9 @@ const Projects = () => {
   };
 
   return (
-    <div className="section min-h-screen py-16 px-12 sm:px-16 lg:px-24 text-white">
+    <div className="section py-16 px-12 sm:px-16 lg:px-24 text-white">
       <div className="max-w-screen-lg mx-auto text-center">
-        <h2 className="relative projects text-3xl font-extrabold my-8">
+        <h2 className="relative projects text-3xl font-extrabold my-8 mb-20">
           Featured Projects
         </h2>
         <div className="flex justify-center mb-8 relative">
@@ -121,7 +121,7 @@ const Projects = () => {
             <button
               key={index}
               onClick={() => handleProjectChange(index)}
-              className={`mx-2 md:mx-4 lg:mx-10 px-4 py-2 text-white ${
+              className={`mx-2 mb-16 md:mx-4 lg:mx-10 px-4 py-2 text-white ${
                 index === currentProjectIndex
                   ? "bg-cyan-500"
                   : "bg-gray-800 hover:bg-cyan-300"
@@ -138,12 +138,11 @@ const Projects = () => {
               <img
                 src={image}
                 alt={`Slide ${index + 1}`}
-                className="w-full h-full object-cover"
-                style={{ height: "75vh" }}
+                className="w-full h-72 md:h-full lg:h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent flex items-end p-8 transition-opacity duration-500 ease-in-out hover:bg-transparent">
                 <div className="text-left">
-                  <h3 className="text-2xl font-bold">
+                  <h3 className="text-sm md:text-2xl lg:text-2xl font-bold text-white">
                     {projects[currentProjectIndex].name}
                   </h3>
                   <p className="mt-2 project-description">
